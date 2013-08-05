@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:fb="https://www.facebook.com/2008/fbml">
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link rel="stylesheet" href="css/BlackBerry-JQM-all.css" />
+<link rel="stylesheet" href="main.css" type="text/css" />
+<link rel="stylesheet" href="css/BlackBerry-JQM-all.min.css" />
+<script src="js/BlackBerry-JQM-all.js"></script>
+<script src="js/fact.js"></script>
+<script src="js/fact1.js"></script>
+<script src="js/fact2.js"></script>
+<script src="js/fact3.js"></script>
+</head>
+<body>
+
+
+<!-- main page -->
+<div data-role="page" data-theme="a" id="main">
+  
+<div data-role="content">
+	<img src="images/cover.jpg" height="850" width="580">
+  </div> 
+    <div data-role="footer">
+        <div data-role="navbar">
+			<ul>
+				<li><a href="#play" data-transition="flow">ENTER</a></li>
+				<li><a href="#about" data-transition="flow">ABOUT</a></li>				
+			</ul>
+		</div>
+  </div>
+ </div>
+</div>
+
+
+
+<!--PLAY -->
+<div data-role="page" data-theme="a" id="play">
+	<div data-role="header">
+			<h1>FACTS FOR ALL</h1>
+			<a href="#main" data-role="button" data-transition="pop">BACK</a>
+	</div>
+<div data-role="content">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<center><img src="images/logo.png" height="350" width="350"></center>
+<a href="#random" data-role="button" data-transition="pop" onclick="fact()">Random <img src="images/random.jpg" height="50" width="50"></a>
+<a href="#animal" data-role="button" data-transition="pop" onclick="fact1()">Facts About Animals <img src="images/animals.png" height="50" width="50"></a>
+<a href="#human" data-role="button" data-transition="pop" onclick="fact2()">Facts About Human Body<img src="images/human.png" height="60" width="60"></a>
+<a href="#record" data-role="button" data-transition="pop" onclick="fact3()">Facts About World Record <img src="images/records.png" height="50" width="50"></a>
+
+</div>
+</div>
+
+<!--END OF PLAY -->
+
+
+<!--RANDOM-->
+<div data-role="page" data-theme="a" id="random">
+	<div data-role="header">
+			<h1 class="auto-style1">FACTS FOR ALL</h1>
+	</div>
+<div data-role="content" class="auto-style1">
+<center><label>DID YOU KNOW THAT</label></center>
+<textarea cols="50" rows="30" style="width: 500px; height: 560px;" style="resize: none;" id="txtresult" class="ui-disabled"></textarea>
+ <button onclick="fact()">LEARN MORE</button>
+<a href="#play" data-role="button" data-transition="flow"> BACK</a>
+</div>
+</div>
+
+<!--end of RANDOM-->
+<!--ANIMALS-->
+<div data-role="page" data-theme="a" id="animal">
+	<div data-role="header">
+			<h1 class="auto-style1">FACTS FOR ALL</h1>
+	</div>
+<div data-role="content" class="auto-style1">
+<center><label>DID YOU KNOW THAT</label></center>
+<textarea cols="50" rows="30" style="width: 500px; height: 560px;" style="resize: none;" id="txtresult1" class="ui-disabled"></textarea>
+ <button onclick="fact1()">LEARN MORE</button>
+<a href="#play" data-role="button" data-transition="flow"> BACK</a>
+</div>
+</div>
+
+<!--end of ANIMALS-->
+<!--HUMAN-->
+<div data-role="page" data-theme="a" id="human">
+	<div data-role="header">
+			<h1 class="auto-style1">FACTS FOR ALL</h1>
+	</div>
+<div data-role="content" class="auto-style1">
+<center><label>DID YOU KNOW THAT</label></center>
+<textarea cols="50" rows="30" style="width: 500px; height: 560px;;" style="resize: none;" id="txtresult2" class="ui-disabled"></textarea>
+ <button onclick="fact2()">LEARN MORE</button>
+<a href="#play" data-role="button" data-transition="flow"> BACK</a>
+</div>
+</div>
+
+<!--end of HUMAN-->
+
+
+<!--HUMAN-->
+<div data-role="page" data-theme="a" id="record">
+	<div data-role="header">
+			<h1 class="auto-style1">FACTS FOR ALL</h1>
+	</div>
+<div data-role="content" class="auto-style1">
+<center><label>DID YOU KNOW THAT</label></center>
+<textarea cols="50" rows="30" style="width: 500px; height: 560px;" style="resize: none;" id="txtresult3" class="ui-disabled"></textarea>
+ <button onclick="fact3()">LEARN MORE</button>
+<a href="#play" data-role="button" data-transition="flow"> BACK</a>
+</div>
+</div>
+
+<!--end of HUMAN-->
+
+
+<!--HELP -->
+
+<div data-role="page" data-theme="a" id="about">
+	<div data-role="header">
+			<center><center><a href="#main" data-role="button">HOME</a></center>
+		</div>
+<div data-role="content" class="auto-style1">
+<img src="images/about.png" height="890" width="580">
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+</body>
+</html>
