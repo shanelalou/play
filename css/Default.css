@@ -1,0 +1,21 @@
+* {
+	margin: 							0;
+	padding: 							0;
+}
+
+#banner {
+	display: 							block;
+	margin: 							20px auto;
+	width: 								460px;
+}
+
+#banner figcaption {
+    display:                            block;
+    left:                               -999999em;
+    position:                           absolute; 
+    top:                                -999999em;  
+}
+
+#banner canvas {
+    background:                         url('img/ServicesIllustrationBg.gif') no-repeat;   
+}
